@@ -40,12 +40,11 @@ body {
 }
 
 .container p {
-  align-items: center;
   width: 263px;
   font-weight: 500;
   line-height: 25px;
   color: hsl(224, 23%, 55%);
-
+  text-align: center;
   margin: 20px 0;
 }
 
