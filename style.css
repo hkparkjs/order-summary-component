@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  width: 327px;
+  height: 567px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container > img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.container h1 {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.container p {
+  align-items: center;
+  width: 263px;
+  font-weight: 500;
+  line-height: 25px;
+  color: hsl(224, 23%, 55%);
+
+  margin: 20px 0;
+}
+
+.plan-area {
+  background-color: hsl(225, 100%, 98%);
+  width: 277px;
+  height: 81px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.plan-area-content {
+  height: 81px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-music {
+  width: 48px;
+  height: 48px;
+  margin-left: 18px;
+  margin-right: 20px;
+}
+
+.plan-area a {
+  font-weight: 700;
+  font-size: 13px;
+  color: hsl(245, 75%, 52%);
+}
+
+.annual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.annual span {
+  font-size: 14px;
+  margin-right: 45px;
+}
+
+.annual span:first-child {
+  font-weight: 700;
+}
+.annual span:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+.change:hover {
+  opacity: 70%;
+}
+
+.payment {
+  width: 280px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-size: 15px;
+  box-shadow: rgba(56, 41, 214, 0.45) 0px 25px 20px -19px;
+}
+
+.payment:hover {
+  opacity: 70%;
+}
+
+.cancel {
+  border: 0;
+  background-color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
