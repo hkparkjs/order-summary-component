@@ -130,5 +130,66 @@ body {
   color: hsl(223, 47%, 23%);
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }
+
+  .container {
+    width: 450px;
+    height: 698px;
+  }
+
+  .container > img {
+    margin-bottom: 45px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+
+  .container p {
+    width: 293px;
+  }
+
+  .plan-area {
+    width: 354px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .plan-area-content {
+    height: 100px;
+  }
+
+  .plan-area a {
+    font-size: 14px;
+  }
+
+  .icon-music {
+    margin-left: 22px;
+  }
+
+  .annual span {
+    font-size: 16px;
+    margin-right: 100px;
+  }
+
+  .annual span:first-child {
+    margin-bottom: 3px;
+  }
+
+  .change {
+    font-size: 16px;
+  }
+
+  .payment {
+    width: 354px;
+    height: 50px;
+    box-shadow: rgb(56 41 214 / 45%) 0px 25px 29px -16px;
+    margin-bottom: 38px;
+  }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
