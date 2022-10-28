@@ -11,6 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -51,8 +52,10 @@ body {
 }
 ```
 
+### Useful resources
+
+- [MDN - background size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) - This helped me for setting background size.
+
 ## Author
 
 - Frontend Mentor - [@hkparkjs](https://www.frontendmentor.io/profile/hkparkjs)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
