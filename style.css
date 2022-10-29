@@ -35,7 +35,7 @@ body {
 }
 
 .container h1 {
-  font-size: 23px;
+  font-size: 1.4375rem;
   font-weight: 900;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .plan-area a {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: hsl(245, 75%, 52%);
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .annual span {
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-right: 45px;
 }
 
@@ -108,7 +108,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   margin-bottom: 24px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   box-shadow: rgba(56, 41, 214, 0.45) 0px 25px 20px -19px;
 }
 
@@ -123,7 +123,7 @@ body {
   color: hsl(224, 23%, 55%);
   font-weight: 700;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .cancel:hover {
@@ -145,7 +145,7 @@ body {
   }
 
   .container h1 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .container p {
@@ -163,7 +163,7 @@ body {
   }
 
   .plan-area a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .icon-music {
@@ -171,7 +171,7 @@ body {
   }
 
   .annual span {
-    font-size: 16px;
+    font-size: 1rem;
     margin-right: 100px;
   }
 
@@ -180,7 +180,7 @@ body {
   }
 
   .change {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .payment {
@@ -191,5 +191,5 @@ body {
   }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
