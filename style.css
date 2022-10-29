@@ -37,6 +37,7 @@ body {
 .container h1 {
   font-size: 1.4375rem;
   font-weight: 900;
+  color: hsl(223, 47%, 23%);
 }
 
 .container p {
@@ -88,6 +89,7 @@ body {
 
 .annual span:first-child {
   font-weight: 700;
+  color: hsl(223, 47%, 23%);
 }
 .annual span:last-child {
   color: hsl(224, 23%, 55%);
